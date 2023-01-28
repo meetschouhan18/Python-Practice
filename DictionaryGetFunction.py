@@ -1,5 +1,6 @@
 count = {}
 names = ['meet','rohan','billa','pok','gd','meet','rohan','meet','billa','meet','pok','rohan','gd']
+
 for name in names:
     count[name] = count.get(name,0) + 1
 print(count)
