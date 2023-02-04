@@ -1,4 +1,5 @@
 #Binary
+
 l = []
 n = int(input("Enter an integer"))
 m = n
@@ -13,11 +14,13 @@ print("Binary Form :- " , result)
 
 
 #Decimal
+
 n = int(input("Enter an integer"))
 print("Decimal Form :- " , n)
 
 
 #Octal
+
 l = []
 n = int(input("Enter an integer"))
 m = n
@@ -32,6 +35,7 @@ print("Octal Form :- " , result)
 
 
 #Hexa
+
 l = []
 n = int(input("Enter an integer"))
 m = n
