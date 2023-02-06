@@ -5,6 +5,7 @@ animals = ['tiger', 'bear', 'moose']
 print(pd.Series(animals))
 numb = [1,2,3]
 print(pd.Series(numb))
+
 # since index is not mentioned, index is automatically generated
 #this will also print data's type
 a = pd.Series(['A','B','C'], index = ['a','b','c'])
