@@ -21,6 +21,7 @@ print(s3)
 
 
 # Creating DataFrame
+
 #when we join series together, we create a dataframe
 # 1. Passing a numpy array
 df = pd.DataFrame(np.random.randn(6,4))
