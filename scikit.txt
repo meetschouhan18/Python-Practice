@@ -1,0 +1,29 @@
+scikit learn is a machine learning python package
+which can be imported
+it provides us some machine learning algorithms like
+classification
+regression
+clustering
+dimensionality reduction
+model selection
+preprocessing
+
+classification is used to decide object belongs to which category
+i.e. it is used when our data is needed to be classified
+for ex- when data of face related to a cat is being sent, then the alogrithm
+should classify it as cat
+
+regression is done when we have to deal with constantly changing variable
+for ex- weather forecast
+
+clustering is used when we have been given a data and we need to automatically sort them in groups
+we don't know which group, we just want to seperate similar data from the rest
+for ex- asking 5 students a question and making different groups of them based on their answers
+but in clustering we select the criteria of seperation which is know as similarity criteria
+
+dimensionality reduction is used to reduce the number of dimenisons or variables which we are working on, 
+which increases computation
+
+model selection is used to compare, validate and choose parameters and models
+
+preprocessing is used for feature extraction and normalization.
