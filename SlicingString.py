@@ -1,2 +1,6 @@
 a = input("Enter your name :- ")
+print('1st alphabet', a[0])
+print('1st five alphabet', a[0:5])
+n = len(a)
+print('last five alphabet', a[n-5:n])
 print("Reverse of your name is :- ",a[::-1])
