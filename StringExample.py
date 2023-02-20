@@ -1,11 +1,14 @@
 def x():
-    for i in str.lower():    #str.lower convert all character present in str in lower case
+    for i in str.lower():
+        #str.lower convert all character present in str in lower case
+        
         if i in vowels:
             str1 = str.replace(i,"")
     print("New String After removing all Vowels is :- ",str1)
 
 str = input("Enter any String :- ")
 vowels = ['a','e','i','o','u']
+
 try:
     x()
 except:
@@ -13,17 +16,20 @@ except:
     print("String is :- " , str)
 
 
+    
 #To make list form a string 
 strng = 'Meet'
 lst = list(strng)
 print(lst)
 
+
 # st = 'I'm good today' have error. Thus
 st = 'I\'m good today'
 print(st)
+
+
 s = 'Today\tis\ta\tgood\tday.\nYeah!!!'
 print(s)
-
 #To print \ write \\ ex - s = 'Hello \\ World gives Hello \ World
 
 
@@ -41,6 +47,7 @@ print(q.lower())
 #today and TODAY both are not equal to Today . Thus it can create confusion while comparing
 #therefore, to compare simply use-
 w = "TODay"
+
 if w.lower() in q.lower(): #same can be done with upper()
     print("Present in both strings")
 
@@ -51,9 +58,11 @@ print(a.isupper())
 b = "a1b2c"
 print(b.islower())
 
+
 #Capitalize - make first letter capital
 a = "meet"
 print(a.capitalize())
+
 
 #Startswith , Endswith - Tells whether string starts or ends with the specified character or word
 z = "Today"
