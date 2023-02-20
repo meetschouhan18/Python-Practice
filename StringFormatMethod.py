@@ -37,6 +37,7 @@ print("The hexa(in upper case) of 1000 is {:X}".format(1000))
 
 # ex4 - alignment of text
 print("Sam has {:<4} red {:^16}! so he is {:>6}".format(5 , "balloons", "happy"))
+
 # 5 is printed then 3 spaces (in <4)
 # balloons is printed in middle of 16 digits(in ^16)
 # in 6 digits place 5 places are taken by happy and the last left place is printed by space in left(in >6)
