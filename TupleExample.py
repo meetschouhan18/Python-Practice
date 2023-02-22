@@ -1,7 +1,9 @@
 tup = ('My','name','Is','O',0,7)
+
 print(tup[0])
 print(tup[0:5])
 print(len(tup))
+
 try:
    tup[3] = 'Meet'
 except:
