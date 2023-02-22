@@ -21,23 +21,36 @@ which is 4444-444-4444 (which is in wrong format)'''
 match = no.search(string)
 print("Correct Number is :- " , match.group())
 
-halfno = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')     #we simply divided phone number in 2 sections
+halfno = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
+#we simply divided phone number in 2 sections
+
 match = halfno.search("My Phone Number is 333-555-4444 .")
 
-print(match.group(1))      #prints 1st section i.e. 333
-print(match.group(2))     #prints 2nd section i.e. 555-4444
-print(match.group())       #prints all sections
+print(match.group(1))
+#prints 1st section i.e. 333
 
-code,number = match.groups()    #groups functions simply calls every section
+print(match.group(2))
+#prints 2nd section i.e. 555-4444
+
+print(match.group())
+#prints all sections
+
+
+code,number = match.groups()
+#groups functions simply calls every section
 #1st section is stored in code and 2nd section is stored in number
+
 print("Code :- " , code , "\nPhone Number :- " , number)
 
 
 #Extracting E-mails from string of another file
 
 #import re     #already done above
+
 file = open('email.txt','r')
-text = file.read()            #storing emails in text variable by reading
+text = file.read()
+#storing emails in text variable by reading
+
 match = re.findall(r'[\w.-]+@[\w.-]+.com',text)
 
 print(match)
